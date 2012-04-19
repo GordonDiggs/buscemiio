@@ -15,6 +15,10 @@ group :development do
 end
 
 group :development, :test do
+  gem "guard"
+  gem "guard-bundler"
+  gem "guard-rack"
+
   gem 'rack-test', :require => 'rack/test'
   gem 'rspec', '~> 2.5'
   gem 'webmock', '~> 1.8', :require => 'webmock/rspec'

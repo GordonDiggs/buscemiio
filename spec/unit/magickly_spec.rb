@@ -9,7 +9,7 @@ describe Magickly do
     use_vcr_cassette 'dubya'
     
     def check_face_data(file_or_job)
-      data = Mustachio.face_data(file_or_job)
+      data = Buscemi.face_data(file_or_job)
       
       data.should be_a Hash
     end

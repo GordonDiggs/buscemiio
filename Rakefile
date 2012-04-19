@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "mustachio"
-  gem.homepage = "http://github.com/afeld/mustachio"
+  gem.name = "buscemi"
+  gem.homepage = "http://github.com/zbowling/buscemiio"
   gem.license = "MIT"
-  gem.summary = %Q{automatic mustachifying of any image}
-  gem.description = %Q{Adds a 'mustachify' shortcut to magickly.}
-  gem.email = "aidan.feldman@gmail.com"
-  gem.authors = ["Aidan Feldman"]
+  gem.summary = %Q{automatic buscemi-ing of any image}
+  gem.description = %Q{Adds a 'buscemify' shortcut to magickly.}
+  gem.email = "zac@zacbowling.com"
+  gem.authors = ["Zac Bowling"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "mustachio #{version}"
+  rdoc.title = "Buscemiio #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
